@@ -6,7 +6,7 @@
 类似qq卡片封装的双面卡片view，可设置正反双面，点击产生翻面动画，卡片自带阴影和圆角
 ***一行代码即可生成想要的双面动效卡片view***
 
-![img](![卡片view效果](https://img-blog.csdnimg.cn/20181106125056467.gif))
+# ![img](https://github.com/DDstrongman/DDCardView/blob/master/github.gif)
 
 instance函数：
 
