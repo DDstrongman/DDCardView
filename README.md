@@ -48,7 +48,7 @@ instance函数：
 
 ## Requirements
 
-直接加载网络url依赖于SDWebimage
+直接加载网络图片url依赖于SDWebimage
 
 ## Installation
 
