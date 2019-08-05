@@ -36,7 +36,10 @@ instance函数：
     testTwo.backgroundColor = [UIColor blackColor];
     
     
-    DDCardView *testCard = [[DDCardView alloc]initWithFrame:CGRectMake(10, 10, 200, 200) front:test back:testTwo tapBlock:^(BOOL isBack, UIView * _Nonnull tapView) { 
+    DDCardView *testCard = [[DDCardView alloc]initWithFrame:CGRectMake(10, 10, 200, 200) 
+                            front:test 
+                            back:testTwo
+                            tapBlock:^(BOOL isBack, UIView * _Nonnull tapView) { 
     }];
     [self.view addSubview:testCard];
 ```
