@@ -29,7 +29,7 @@ instance函数：
 ***举个栗子：***
 
 ```objective-c
-		UIView *test = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
+    UIView *test = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
     test.backgroundColor = [UIColor blackColor];
     
     UIView *testTwo = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 200, 200)];
