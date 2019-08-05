@@ -3,7 +3,7 @@
 
 ## Example
 
-类似qq卡片封装的双面卡片view，可设置正反双面，点击产生翻面动画，卡片自带阴影和圆角
+类似qq卡片封装的双面卡片view，可设置正反双面，点击产生翻面动画，卡片自带阴影和圆角<br>
 ***一行代码即可生成想要的双面动效卡片view***
 
 # ![img](https://github.com/DDstrongman/DDCardView/blob/master/github.gif)
