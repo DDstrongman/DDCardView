@@ -234,6 +234,7 @@
     _cardBack.layer.transform = CATransform3DMakeRotation(M_PI, 0, 1, 0);
     CATransform3D  transform = CATransform3DIdentity;
     transform.m34 = 4.5/-2000;
+    _cardBack.layer.rasterizationScale = [UIScreen mainScreen].scale;
     [UIView animateWithDuration:0.7 delay:0 usingSpringWithDamping:0.65 initialSpringVelocity:8 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         if (self.isBack) {
             self.layer.transform = CATransform3DRotate(transform,M_PI, 0, 1, 0);
